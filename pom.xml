@@ -34,6 +34,13 @@
             <scope>test</scope>
         </dependency>
 
+<!--        Used e.g.: for @Sql annotation-->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>5.2.8.RELEASE</version>
+        </dependency>
+
 <!--        in order to be able to connect a database (now MARIA DB) we need a driver : mysql-connector-java -->
         <dependency>
             <groupId>mysql</groupId>
